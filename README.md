@@ -4,7 +4,7 @@ Boilerplate for a Django app that utilizes a Docker container, with web serving 
 ## Quick start
 See the file named `Makefile` for detailed commands.
 
-At the top of `makefile`, change `APP_NAME` to the name of your new app. Also, change the name of the `helloworld` and `helloworld/helloworld` directories to the name of your app.
+At the top of `Makefile`, change `APP_NAME` to the name of your new app. Also, change the name of the `helloworld` and `helloworld/helloworld` directories to the name of your app.
 
 ### Build and run the docker container locally
 In a terminal, navigate to the root directory of the project and execute the following command: 
