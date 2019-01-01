@@ -8,7 +8,9 @@ At the top of `makefile`, change `APP_NAME` to the name of your new app. Also, c
 
 ### Build and run the docker container locally
 In a terminal, navigate to the root directory of the project and execute the following command: 
-`make`
+```
+make
+```
 
 ### Run the Django app locally, without a docker container (not recommended, but useful for debugging purposes)
 In a terminal, navigate to the root directory of the project and execute the following commands: 
@@ -25,4 +27,6 @@ This will start up the gunicorn server.
 You'll need to do this after you have made changes to the project, and want to make those changes available to consumers of your docker image. An example of a consumer of your docker image would be an EC2 instance that hosts your app via docker.
 
 In a terminal, navigate to the root directory of the project and execute the following command: 
-`make publish`
+```
+make publish
+```
