@@ -1,4 +1,4 @@
-APP_NAME=mydjangoapp
+APP_NAME=helloworld
 
 all: build run
 
@@ -9,7 +9,7 @@ run:
 	docker run -it -p 80:8000 hunterhod/${APP_NAME}
 
 dev:
-	cd helloworld && gunicorn helloworld.wsgi
+	cd ${APP_NAME} && gunicorn helloworld.wsgi
 
 publish:
 	docker push hunterhod/${APP_NAME}
