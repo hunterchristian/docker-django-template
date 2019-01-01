@@ -2,7 +2,7 @@
 Boilerplate for a Django app that utilizes a Docker container, with web serving performed by Gunicorn to handle production-level traffic.
 
 ## Quick start
-See `makefile` for detailed commands.
+See the file named `Makefile` for detailed commands.
 
 At the top of `makefile`, change `APP_NAME` to the name of your new app. Also, change the name of the `helloworld` and `helloworld/helloworld` directories to the name of your app.
 
