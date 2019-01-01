@@ -2,6 +2,8 @@
 Boilerplate for a Django app that utilizes a Docker container, with web serving performed by Gunicorn to handle production-level traffic.
 
 ## Quick start
+To set up your Django development environment, follow this tutorial: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment
+
 See the file named `Makefile` for detailed commands.
 
 At the top of `Makefile`, change `APP_NAME` to the name of your new app.
