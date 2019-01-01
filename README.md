@@ -11,7 +11,8 @@ In a terminal, navigate to the root directory of the project and execute the fol
 `make`
 
 ### Run the Django app locally, without a docker container (not recommended, but useful for debugging purposes)
-In a terminal, navigate to the root directory of the project and execute the following command: 
+In a terminal, navigate to the root directory of the project and execute the following commands: 
+`pip install -r requirements.txt`
 `make dev`
 
 This will start up the gunicorn server.
