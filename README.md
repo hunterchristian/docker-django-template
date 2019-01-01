@@ -12,7 +12,7 @@ In a terminal, navigate to the root directory of the project and execute the fol
 make
 ```
 
-In a web browser, navigate to `http://0.0.0.0`. If you have not yet made any changes, you should see a page render with the text "Hello, ya filthy animals!". Modify `src/view.py:index` to render something else onto the page.
+In a web browser, navigate to `http://0.0.0.0`. If you have not yet made any changes, you should see a page render with some sample text. Modify `src/view.py:index` to render something else onto the page.
 
 ### Run the Django app locally, without a docker container (not recommended, but useful for debugging purposes)
 In a terminal, navigate to the root directory of the project and execute the following commands: 
